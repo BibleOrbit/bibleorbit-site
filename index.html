@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bible Orbit</title>
+    <meta
+      name="description"
+      content="Bible Orbit helps believers cultivate a lifelong rhythm in Scripture by keeping Christ at the center and the whole canon in view."
+    />
+    <link rel="canonical" href="https://bibleorbit.org/" />
+    <style>
+      :root {
+        color-scheme: dark light;
+        --bg: #080d17;
+        --panel: #111827;
+        --text: #f8fafc;
+        --muted: #bac7d8;
+        --gold: #f0c433;
+        --border: rgba(240, 196, 51, 0.28);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background:
+          radial-gradient(circle at top, rgba(240, 196, 51, 0.14), transparent 32rem),
+          var(--bg);
+        color: var(--text);
+      }
+
+      main {
+        width: min(720px, calc(100% - 2rem));
+        margin: 0 auto;
+        padding: 6rem 0;
+      }
+
+      .mark {
+        color: var(--gold);
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0.75rem 0 1rem;
+        font-size: clamp(2.5rem, 9vw, 4.75rem);
+        line-height: 0.95;
+        letter-spacing: 0;
+      }
+
+      p {
+        color: var(--muted);
+        font-size: 1.06rem;
+        line-height: 1.7;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        margin-top: 2rem;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 2.75rem;
+        padding: 0 1rem;
+        border: 1px solid var(--border);
+        border-radius: 0.5rem;
+        background: rgba(17, 24, 39, 0.82);
+        color: var(--text);
+        font-weight: 750;
+        text-decoration: none;
+      }
+
+      .button.primary {
+        background: linear-gradient(180deg, #f4d14a, #b88f00);
+        color: #05070c;
+        border-color: rgba(255, 230, 112, 0.6);
+      }
+
+      footer {
+        margin-top: 4rem;
+        padding-top: 1rem;
+        border-top: 1px solid rgba(148, 163, 184, 0.18);
+        color: #8fa1bb;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="mark">Read the whole counsel of God</div>
+      <h1>Bible Orbit</h1>
+      <p>
+        Bible Orbit helps believers cultivate a lifelong rhythm in Scripture by keeping Christ
+        at the center and the whole canon in view.
+      </p>
+      <div class="actions">
+        <a class="button primary" href="/privacy/">Privacy Policy</a>
+        <a class="button" href="/support/">Support</a>
+      </div>
+      <footer>
+        <span>&copy; 2026 Bible Orbit. All rights reserved.</span>
+      </footer>
+    </main>
+  </body>
+</html>
